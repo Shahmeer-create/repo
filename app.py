@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     # Simple message to be displayed on the browser
-    message = "Hello, welcome to my simple app  by shahmeer working !"
+    message = "Hello, welcome to my simple app  by shahmeer working good !"
     
     # Check if the app is running in the correct directory
     if os.path.exists('/home/ubuntu/myapp'):
